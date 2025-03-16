@@ -29,7 +29,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/core-js/client/shim.min.js",
+              "node_modules/zone.js/dist/zone.min.js"
+            ]
           },
           "configurations": {
             "production": {
