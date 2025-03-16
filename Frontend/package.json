@@ -19,6 +19,8 @@
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
     "core-js": "^3.30.0",
+    "intersection-observer": "^0.12.2",
+    "resize-observer-polyfill": "^1.5.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "whatwg-fetch": "^3.6.20",

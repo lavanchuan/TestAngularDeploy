@@ -21,8 +21,8 @@ import 'zone.js';  // Nguyên nhân Angular cần zone.js để theo dõi các a
 import 'core-js/es/promise';
 import 'core-js/es/object';
 import 'core-js/es/array';
-import 'core-js/es/map';
 import 'core-js/es/set';
+import 'core-js/es/map';
 
 // Polyfill cho Fetch API (nếu sử dụng Fetch thay cho XMLHttpRequest)
 import 'whatwg-fetch';  // Polyfill cho Fetch API
