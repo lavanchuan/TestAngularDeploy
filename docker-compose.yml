@@ -1,16 +1,16 @@
 version: '3.8'
 
 services:
-  fe_ngTest:
+  fe_ng_test:
     build:
       context: ./Frontend
       dockerfile: Dockerfile
     ports:
       - "80:80"
     networks:
-      - nw_ngTest
+      - nw_ng_test
 
 
 networks:
-  nw_ngTest:
+  nw_ng_test:
     driver: bridge
