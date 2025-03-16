@@ -21,10 +21,12 @@ import 'zone.js';  // Nguyên nhân Angular cần zone.js để theo dõi các a
 import 'core-js/es/promise';
 import 'core-js/es/object';
 import 'core-js/es/array';
+import 'core-js/es/map';
+import 'core-js/es/set';
 
 // Polyfill cho Fetch API (nếu sử dụng Fetch thay cho XMLHttpRequest)
 import 'whatwg-fetch';  // Polyfill cho Fetch API
 
 // Polyfill cho các API khác như Intersection Observer, Resize Observer nếu cần
-// import 'intersection-observer'; // Uncomment nếu sử dụng IntersectionObserver
-// import 'resize-observer-polyfill'; // Uncomment nếu sử dụng ResizeObserver
+import 'intersection-observer'; // Uncomment nếu sử dụng IntersectionObserver
+import 'resize-observer-polyfill'; // Uncomment nếu sử dụng ResizeObserver
