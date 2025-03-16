@@ -17,7 +17,7 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "src/polyfills.ts"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -29,10 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/core-js/client/shim.min.js",
-              "node_modules/zone.js/dist/zone.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
